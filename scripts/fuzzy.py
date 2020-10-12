@@ -18,4 +18,4 @@ for i in range(1,10):
     grid_list.append(name)
     
 images = [imageio.imread(filename) for filename in grid_list]
-imageio.mimsave('fuzzy_gif.gif', images, duration=0.05)
+imageio.mimsave('fuzzy.gif', images, duration=0.05)
